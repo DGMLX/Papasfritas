@@ -1,0 +1,132 @@
+
+.contenedor-general{
+    height: 100vh;
+
+}
+.contenedor-direccion{
+    height: 6vh;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.contenedor-papas{
+    height: 47vh;
+    background-color:gray ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/papas.jpg");
+    background-blend-mode:hard-light;
+    width: 100%;
+    
+
+}
+
+.contenedor-empanadas{
+    height: 47vh;
+    background-color:gray ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/empanadas.jpg");
+    background-blend-mode:hard-light;
+    width: 100%;
+}
+
+.enlace-papas,.enlace-empanadas{
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+.enlace-papas:hover,.enlace-empanadas:hover{
+    text-decoration: underline;
+}
+
+
+.enlace{
+    background-color:rgba(0, 0, 0,.4);
+    padding: 1rem;
+    border-radius: 5rem;
+    width: 100%;
+    text-align: center;
+}
+.enlace:hover{
+    background-color:rgba(0, 0, 0,.5);
+}
+.enlace:active{
+    background-color:rgba(0, 0, 0,.4);
+}
+/*page empanadas*/
+
+.contenedor-pageEmpanada{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/img/empanadas.jpg");
+    background-blend-mode:hard-light;
+}
+
+.contenedor-pagePapas{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/img/papas.jpg");
+    background-blend-mode:hard-light;
+}
+
+.contenedor-fondo{
+    background-color:rgba(0, 0, 0,.4);
+    height: 94vh;
+
+}
+
+.contenedor-fondo-home{
+    background-color:rgba(0, 0, 0,.4);
+    height: 47vh;
+    width: 100vw;
+
+}
+.enlace-volver{
+    background-color:rgba(0, 0, 0,.5);
+    padding: 1rem ;
+}
+.enlace-volver:hover{
+    background-color:rgba(0, 0, 0,.6);
+}
+.enlace-volver:active{
+    background-color:rgba(0, 0, 0,.5);
+}
+h1{
+    font-size: 2rem;
+}
+ul li{
+    font-size: 1.3rem;
+}
+
+/* btn wsp
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+.btn-wsp{
+	position: relative;
+	top: 7px;
+	left: 1px;
+}
+
+*/
